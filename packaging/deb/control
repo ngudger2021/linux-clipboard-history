@@ -1,0 +1,11 @@
+Package: linux-clipboard-history
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Linux Clipboard History contributors
+Depends: libgtk-4-1, xclip, xdotool, wl-clipboard
+Description: Persistent clipboard history manager for Linux
+ A GTK4 clipboard history application inspired by the Windows 11 clipboard
+ manager. It supports searchable plain-text history, pinned items, X11 global
+ shortcuts and auto-paste, and safe Wayland clipboard restoration.

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Clipboard History
+Comment=Search and restore clipboard history
+Exec=linux-clipboard-history show
+Icon=linux-clipboard-history
+Terminal=false
+StartupNotify=false
+Categories=Utility;GTK;
+Keywords=clipboard;history;paste;
