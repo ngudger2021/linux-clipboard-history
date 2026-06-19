@@ -8,6 +8,16 @@ items.
 This first release intentionally supports plain text only. Images, HTML, copied
 files, sync, and encryption are future work.
 
+## Project status
+
+This project is early-stage software and has known issues across different
+Linux desktops, especially around Wayland clipboard access and global keyboard
+shortcuts. Bug reports, testing, documentation improvements, and code
+contributions would be greatly appreciated. Please use
+[GitHub Issues](https://github.com/ngudger2021/linux-clipboard-history/issues)
+to report reproducible problems and include your distribution, desktop
+environment, and whether the session uses X11 or Wayland.
+
 ## Features
 
 - Persistent SQLite history, newest first
@@ -213,3 +223,7 @@ Run checks with:
 cargo fmt --check
 cargo test
 ```
+
+## License
+
+This project is open-source software licensed under the [MIT License](LICENSE).
